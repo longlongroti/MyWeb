@@ -28,3 +28,7 @@ Host bbb
     HostName git.oschina.net
     User git
     IdentityFile ~/.ssh/id_rsa_bbb
+	
+	
+git本地新建一个分支后，必须要做远程分支关联
+git branch --set-upstream-to=origin/master
